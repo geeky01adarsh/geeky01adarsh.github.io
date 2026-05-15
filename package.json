@@ -7,8 +7,10 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "build:pages": "tsc && BASE_PATH=/portfolioV2/ vite build",
+    "build:pages:profile-repo": "tsc && BASE_PATH=/geeky01adarsh/ vite build",
     "preview": "vite preview",
-    "preview:pages": "vite preview --base /portfolioV2/"
+    "preview:pages": "vite preview --base /portfolioV2/",
+    "preview:pages:profile-repo": "vite preview --base /geeky01adarsh/"
   },
   "dependencies": {
     "react": "^18.3.1",
