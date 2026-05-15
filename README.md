@@ -60,7 +60,7 @@
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | 45K+ | 300K+ | 10M+ | ~95% | 2000+ | 250K+ |
 
-### Skills (from portfolio data)
+### Skills 
 
 **Languages:** C++, TypeScript, JavaScript, Python, Solidity  
 

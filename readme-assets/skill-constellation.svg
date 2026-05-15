@@ -17,9 +17,10 @@
   <rect x="1" y="1" width="718" height="198" rx="13" fill="none" stroke="#a78bfa" stroke-opacity="0.25"/>
   <ellipse cx="360" cy="100" rx="118" ry="52" fill="none" stroke="#22d3ee" stroke-opacity="0.2" stroke-width="1.2"/>
   <ellipse cx="360" cy="100" rx="168" ry="74" fill="none" stroke="#fdc50f" stroke-opacity="0.15" stroke-width="1" stroke-dasharray="4 6"/>
-  <circle cx="360" cy="100" r="28" fill="#13162a" stroke="url(#sc-gold)" stroke-width="2"/>
-  <text x="360" y="96" text-anchor="middle" fill="#eef1ff" font-family="ui-monospace, JetBrains Mono, monospace" font-size="11" font-weight="700">YOU</text>
-  <text x="360" y="110" text-anchor="middle" fill="#9aa4bf" font-family="ui-monospace, JetBrains Mono, monospace" font-size="8">ship &#183; scale</text>
+  <circle cx="360" cy="100" r="35" fill="#13162a" stroke="url(#sc-gold)" stroke-width="2"/>
+  <text x="360" y="96" text-anchor="middle" fill="#eef1ff" font-family="ui-monospace, JetBrains Mono, monospace" font-size="11" font-weight="700">ME</text>
+<text x="360" y="110" text-anchor="middle" fill="#9aa4bf" font-family="ui-monospace, JetBrains Mono, monospace" font-size="8">research</text>
+  <text x="360" y="120" text-anchor="middle" fill="#9aa4bf" font-family="ui-monospace, JetBrains Mono, monospace" font-size="8">ship &#183; scale</text>
   <g stroke="#94a3b8" stroke-opacity="0.35" stroke-width="1">
     <line x1="360" y1="100" x2="220" y2="52"/>
     <line x1="360" y1="100" x2="180" y2="118"/>
@@ -53,6 +54,7 @@
       <circle r="20" fill="#171b33" stroke="url(#sc-cyan)" stroke-width="1.5"/>
       <text y="4" text-anchor="middle" fill="#8ef9ff" font-size="8" font-weight="600">TLS</text>
     </g>
+
   </g>
-  <text x="360" y="188" text-anchor="middle" fill="#64748b" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10">Web3 &#183; systems &#183; backend (see public/portfolio.json)</text>
+  <text x="360" y="188" text-anchor="middle" fill="#64748b" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10">Web3 &#183; Systems &#183; Backend &#183; Networking &#183; R&amp;D </text>
 </svg>
