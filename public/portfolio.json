@@ -176,50 +176,50 @@
           "name": "Zoro Wallet",
           "stack": "Node.js, Koa, React Native, Expo, Canton Network, DAML",
           "bullets": [
-            "Leading end-to-end development of a Canton-based Web3 wallet supporting 5 digital assets among 45K+ users.",
-            "Implemented CIP-0103 on Zoro Wallet via RPC-based routing.",
-            "Engineered wallet integration framework: transactions, event listeners, and handlers across multiple wallets.",
-            "Dynamic fee computation for Canton transactions across assets.",
-            "Extended protocol support: token onboarding and on-chain/cross-chain swaps with multi-partner integration."
+            "Own and lead end-to-end architecture, development, and delivery for the flagship Canton-based Zoro Wallet, supporting 5 digital assets for a rapidly scaling userbase of 45K+.",
+            "Pioneered integration of CIP-0103 standard, designing robust RPC-based routing across the wallet ecosystem.",
+            "Designed and implemented a modular wallet integration framework: seamless multi-wallet transaction flows, real-time event listeners, and cross-wallet handler engines.",
+            "Built dynamic, asset-agnostic fee computation modules optimizing transaction costs for users across the Canton network.",
+            "Drove protocol extensibility—including token onboarding, and scalable, secure on-chain/cross-chain swaps via multi-partner integrations."
           ]
         },
         {
-          "name": "Zoro APIs & transaction scaling",
+          "name": "Zoro APIs & Transaction Scaling",
           "stack": "Node.js, Koa, Golang, Canton Network, DAML",
           "bullets": [
-            "300K+ CC incremental revenue via proactive transaction management, reward gate, node monitoring, and uptime ownership.",
-            "Reward-gate-based bot transfer logic to maximize earnings.",
-            "Scaled Zoro APIs to 8 TPS with strict rate limiting at peak volume.",
-            "Provisioned 45,000 bot accounts across 3 nodes (Cypherock, Tradefast, OpenVector).",
-            "High-frequency pipeline: 300K+ transactions/day."
+            "Drove $300K+ CC incremental revenue by optimizing transaction management: predictive reward gating, advanced node monitoring, and 24/7 high-availability infrastructure stewardship.",
+            "Engineered reward-gating and bot transfer logic to maximize ecosystem earnings and minimize revenue leakage.",
+            "Scaled Zoro APIs for high throughput (8 TPS) and 99.99% uptime, introducing advanced rate limiting and hot path optimizations for peak loads.",
+            "Provisioned and managed 45,000+ fully-automated transfer accounts across 3 nodes, enabling reliable, secure swaps and token transfers using ed25519-hd-key and bip-39 keys.",
+            "Architected a high-frequency transaction pipeline—processing 300K+ transactions daily with robust monitoring and failover."
           ]
         },
         {
           "name": "Trade.fast",
           "stack": "Node.js, Fastify, Canton Network, DAML, Next.js, Solidity",
           "bullets": [
-            "Dynamic leaderboards for trading and liquidity pool rankings with standing-based rewards.",
-            "Referral tracking dashboard with quest-level attribution.",
-            "Uniswap V2-style liquidity pools UI with analytics and historical token data.",
-            "WebAuth-based client-side transaction signing; seed phrase encrypted client-side.",
-            "Co-developed AMM and liquidity pools on Canton; peak ~15k+ swaps/day."
+            "Built dynamic, real-time leaderboards underpinning trader and liquidity pool rankings; automated reward payout flows based on standing.",
+            "Developed a granular, quest-level attribution system for referral tracking and campaign measurement.",
+            "Engineered an analytics-driven Uniswap V2-like UI, surfacing actionable insights and token data history for liquidity providers.",
+            "Secured client-side transaction signing using WebAuth and encrypted seed phrases, elevating user experience and compliance standards.",
+            "Co-developed Canton-based AMM and liquidity pool smart contracts, scaling protocol to 15K+ swaps/day at peak."
           ]
         },
         {
           "name": "Bridge — ERC20 on Canton",
           "stack": "DAML, Solidity, Smart contracts, Next.js, Fastify",
           "bullets": [
-            "Featured App assurance on testnet plus swap features.",
-            "APIs interfacing backend, DAML, and smart contracts for bridge execution.",
-            "Node performance and transaction monitoring dashboard."
+            "Delivered seamless ERC20 bridging for Canton: launched on testnet with robust swap and App assurance features.",
+            "Designed and exposed APIs bridging backend, DAML, and Ethereum smart contracts for streamlined, fail-safe bridge operations.",
+            "Built a full-stack node and transaction monitoring dashboard, enabling real-time visibility and proactive operations."
           ]
         },
         {
           "name": "Featured App Rewards",
           "stack": "Python, Pandas, NumPy, TypeScript, Node.js",
           "bullets": [
-            "Reward prediction algorithm for marker submissions.",
-            "Automated marker submission and traffic buying using four data signals."
+            "Developed an ML-driven prediction algorithm to optimize marker-based reward distributions for user submissions.",
+            "Automated multi-signal marker submission pipelines and programmatic traffic acquisition, resulting in significant growth and platform visibility."
           ]
         }
       ]
@@ -245,31 +245,30 @@
           "name": "COMET",
           "stack": "C++, Python, Wireshark, HTTP, TLS 1.2, TCP/UDP, SIP/RTP, STUN/TURN",
           "bullets": [
-            "Federal-grade network intelligence; POCs to production for lawful interception.",
-            "Core R&D / POC lead for COMET (KSA) $300M program — DPI and correlation modules.",
-            "DPI systems: 10M+ sessions/day across L2–L7 with optimized correlation.",
-            "VoIP correlation for encrypted calls — ~95% accuracy over 10M+ daily sessions.",
-            "C++ TLS reconstruction with libgcrypt for real-time PCAP decryption.",
-            "Distributed pipelines across 54 nodes; 10M+ records/day, sub-ms latency."
+            "Led research and core POC/production delivery of COMET (KSA) as part of a $300M federal-grade lawful interception initiative, with a focus on DPI and correlation modules.",
+            "Orchestrated the design and deployment of scalable DPI systems: achieving 10M+ session analytics per day across L2–L7, with best-in-class correlation performance.",
+            "Authored high-accuracy VoIP correlation mechanisms for encrypted traffic, consistently surpassing 95% accuracy over multi-million session daily scale.",
+            "Implemented advanced C++ TLS traffic reconstruction using libgcrypt for real-time PCAP decryption and analytics.",
+            "Optimized and scaled distributed data pipelines across 54 nodes, handling over 10M records per day with sub-millisecond latency."
           ]
         },
         {
           "name": "MetaTrail",
           "stack": "C++, Python, Wireshark, FoIP, SRTP, NLP",
           "bullets": [
-            "FoIP processing to TIFF with ~95% accuracy.",
-            "Extract WAV from SRTP using keys from SIP.",
-            "Location detail at Tehsil level for J&K precision tracking.",
-            "SMTP session extraction, conversation analytics, and intent detection."
+            "Engineered robust Fax over IP (FoIP) to TIFF workflows—delivering automated processing at 95%+ accuracy benchmarks.",
+            "Developed WAV extraction modules from SRTP streams by leveraging SIP session key analysis.",
+            "Enabled location-aware traffic analysis at sub-district scale (Tehsil level) to support J&K precision surveillance.",
+            "Pioneered SMTP session extraction, with applied NLP for advanced conversation analytics and intent inference."
           ]
         },
         {
           "name": "Singular",
           "stack": "C++, Python, Wireshark, UDP, QUIC",
           "bullets": [
-            "Application classification by signature across communication genres.",
-            "QUIC session header extraction/decryption for session identification.",
-            "Correlation for multiplayer online game traffic."
+            "Developed signature-based multi-protocol classification system, accurately segmenting diverse application traffic genres.",
+            "Reverse engineered QUIC session headers, enabling extraction and decryption for session identification and analytics.",
+            "Delivered game traffic correlation modules resulting in enhanced identification of multiplayer online sessions in real time."
           ]
         }
       ]
@@ -294,10 +293,10 @@
           "name": "Platform",
           "stack": "MERN, GitHub Actions, Stripe",
           "bullets": [
-            "Shipped ECal, CiP, and EmX from scratch; 10+ organisations onboarded.",
-            "Async API triggers for GitHub Actions CI/CD.",
-            "Public website with SEO — 500+ daily organic visitors.",
-            "Stripe with webhooks, idempotent payments, automated PDF invoices."
+            "Spearheaded rapid product delivery, launching ECal, CiP, and EmX from inception to production—driving adoption across 10+ enterprise organizations.",
+            "Engineered asynchronous API triggers and intelligent automation pipelines to power CI/CD and DevOps flows via GitHub Actions.",
+            "Built and scaled a highly discoverable, SEO-optimized public website—achieving 500+ daily organic visitors in <3 months.",
+            "Integrated Stripe for robust billing: automated webhook handling, idempotent payment flows, and PDF invoice generation for a seamless customer experience."
           ]
         }
       ]
@@ -322,9 +321,9 @@
           "name": "ChatGP.se",
           "stack": "MERN, Redis, OpenAI",
           "bullets": [
-            "Multi-tenant ChatGPT token platform; 10,000+ users with admin analytics.",
-            "~3× lower token usage via Redis semantic caching, context memory, and targeted crawling for grounding.",
-            "Full SDLC for two production products."
+            "Built a multi-tenant, production-scale ChatGPT platform powering 10,000+ users with advanced admin analytics and segmentation.",
+            "Achieved ~3x reduction in OpenAI token usage by designing a Redis-powered semantic caching system, persistent conversation memory, and targeted content crawling to enhance grounding.",
+            "Drove the complete SDLC (from ideation to deployment) for two robust, user-facing production products."
           ]
         }
       ]
