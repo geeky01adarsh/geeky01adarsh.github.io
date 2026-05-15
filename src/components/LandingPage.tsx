@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useLayoutEffect, useRef } from "react";
 import type { PortfolioConfig, Project, Experience } from "../types";
 import { publicUrl } from "../lib/publicUrl";
 
@@ -75,6 +75,16 @@ function CantonMini() {
   );
 }
 
+function revealInView(el: HTMLElement, onRevealSection: (id: string) => void) {
+  const r = el.getBoundingClientRect();
+  const vh = window.innerHeight || 0;
+  const vw = window.innerWidth || 0;
+  if (r.bottom <= 0 || r.top >= vh || r.right <= 0 || r.left >= vw) return;
+  el.classList.add("is-revealed");
+  const id = el.dataset.sectionId;
+  if (id) onRevealSection(id);
+}
+
 export function LandingPage({ config, revealedIds, onRevealSection }: Props) {
   const observer = useRef<IntersectionObserver | null>(null);
   const v = config.visual;
@@ -86,7 +96,7 @@ export function LandingPage({ config, revealedIds, onRevealSection }: Props) {
   const portraitAlt = hero?.portraitAlt ?? `${config.meta.siteTitle} — profile photo`;
   const heroStats = config.heroStats ?? [];
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     observer.current?.disconnect();
     observer.current = new IntersectionObserver(
       (entries) => {
@@ -98,10 +108,12 @@ export function LandingPage({ config, revealedIds, onRevealSection }: Props) {
           if (id) onRevealSection(id);
         }
       },
-      { threshold: 0.18 },
+      /* threshold 0.18 could skip a tall hero on short viewports (intersection ratio stays below 0.18 → stuck at opacity 0). */
+      { threshold: 0, rootMargin: "80px 0px" },
     );
 
     document.querySelectorAll<HTMLElement>("[data-reveal]").forEach((el) => {
+      revealInView(el, onRevealSection);
       observer.current?.observe(el);
     });
 
